@@ -1,0 +1,5 @@
+## 1. what is amqp?
+> AMQP stands for Advanced Message Queuing Protocol. It's an open-standard application layer protocol for message-oriented middleware, designed for reliable, efficient communication between applications for queuing messages between different components.
+
+## 2. what it means? guest:guest@localhost:5672 , what is the first guest, and what is the second guest, and what is localhost:5672 is for? 
+> **guest:guest@localhost:5672** is the connection string for accessing an AMQP broker. guest:guest are the username and password for accessing the broker. In this case, both are set to 'guest'. @localhost:5672 specifies the hostname and port of the AMQP broker. localhost refers to the local machine (where the code is running), and 5672 is the default port for AMQP. So, the code is trying to connect to an AMQP broker running on the local machine.
