@@ -11,3 +11,4 @@ The `Queued messages` chart shows that the number of queued messages is 15 after
 ## Reflection and Running at least three subscribers
 ![image](https://github.com/sorfeb/tutorial8-subscriber/assets/112263712/0165faab-1f3a-4616-a23f-0c23a592b3f0)
 ![image](https://github.com/sorfeb/tutorial8-subscriber/assets/112263712/5cdc499c-6b79-438c-beb9-13bd4c928151)
+As you can see the messages from the `publisher` are automatically processed by the three instances of `subscribers`, resulting each subscriber split the processing workload everytime publisher pushes the 5 messages. This caused the performance to improve evident in the RabbitMQ charts showing no queued messages although the message rate increased.
