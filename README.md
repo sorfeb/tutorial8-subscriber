@@ -7,3 +7,7 @@
 ## Simulation slow subscriber
 ![image](https://github.com/sorfeb/tutorial8-subscriber/assets/112263712/38edf448-df23-4eb5-9d07-522f914ebe7e)
 The `Queued messages` chart shows that the number of queued messages is 15 after I activated a 1 second delay for each process in the `subscriber` `main.rs` source code and triggered `cargo run` 3 times in a row. The number of queued messages from the publisher will be queued as long as the prior messages haven't been processed completely by the subscriber. 
+
+## Reflection and Running at least three subscribers
+![image](https://github.com/sorfeb/tutorial8-subscriber/assets/112263712/0165faab-1f3a-4616-a23f-0c23a592b3f0)
+![image](https://github.com/sorfeb/tutorial8-subscriber/assets/112263712/5cdc499c-6b79-438c-beb9-13bd4c928151)
